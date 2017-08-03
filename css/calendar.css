@@ -1,0 +1,93 @@
+p{
+	padding-left: 15px;
+	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#calendar{
+	width: 350px;
+	padding: 10px;
+	margin: 50px auto;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100%;
+	color: #fff;
+}
+#curTime{
+	font: 40px/40px "微软雅黑";
+}
+#today{
+	font: 16px/16px "微软雅黑";
+	margin: 10px 0;
+}
+#monthSelect{
+	height: 40px;
+	padding-left: 15px;
+}
+#thisMonth{
+	font: 20px/20px "微软雅黑";
+	color: #eff16d;
+	vertical-align: middle;
+	margin-right: 128px;
+}
+a{
+	display: inline-block;
+	width: 35px;
+	height: 100%;
+	color: #eff16d;
+	text-align: center;
+	vertical-align: middle;
+}
+a:active{
+	color: grey;
+}
+#up,#down{
+	font: bold 30px/30px "微软雅黑";
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+li{
+	font: bold 20px/20px "微软雅黑";
+	width: 50px;
+	float: left;
+	text-align: center;
+}
+#week{
+	margin: 10px 0 20px 0;
+}
+#box{
+	height: 240px;
+	position: relative;
+	overflow: hidden;
+}
+#days{
+	width: 350px;
+	position: absolute;
+	top: -240px;
+}
+#days li{
+	width: 100%;
+}
+#days span{
+	width: 40px;
+	height: 25px;
+	display: inline-block;
+	padding-top: 5px;
+	margin: 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.active{
+	background: #91f191;
+	color: red;
+}

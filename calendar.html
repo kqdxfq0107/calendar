@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/calendar.css"/>
+	</head>
+	<body>
+		<div id="calendar">
+			<p id="curTime"></p>
+			<p id="today"></p>
+			<div id="monthSelect">
+				<span id="thisMonth"></span>
+				<a href="#" style="margin-right: 10px;"><span id="up">∧</span></a>
+				<a href="#"><span id="down">∨</span></a>				
+			</div>
+			<ul id="week" class="clearfix">
+				<li>日</li>
+				<li>一</li>
+				<li>二</li>
+				<li>三</li>
+				<li>四</li>
+				<li>五</li>
+				<li>六</li>
+			</ul>
+			<div id="box">
+				<ul id="days">
+					<li id="prev"></li>
+					<li id="cur"></li>
+					<li id="next"></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="js/calendar.js"></script>
+	<script src="js/move.js"></script>
+</html>
